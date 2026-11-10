@@ -8,22 +8,22 @@
 /* ---------- Tokens ---------- */
 :root {
   /* Brand (pulled from logo) */
-  --brand: #1f9d55; /* logo green: accents, large text, stars */
-  --brand-600: #17733f; /* CTA green: 5.9:1 with white text (AA) */
-  --brand-700: #0f5a30; /* CTA hover */
-  --brand-050: #e8f5ec;
-  --brand-300: #86e0aa; /* accents on dark */
+  --brand: #0078f8; /* logo blue: accents, large text, stars */
+  --brand-600: #0060d0; /* CTA blue: passes AA with white text */
+  --brand-700: #004da8; /* CTA hover */
+  --brand-050: #eaf3ff;
+  --brand-300: #8cc2ff; /* accents on dark */
   --steel: #8d96a4; /* logo gray, decorative only */
 
   /* Neutrals */
-  --ink: #0f2a1d; /* deep forest green: dark sections + headings */
-  --ink-2: #33443a;
-  --muted: #53645a;
+  --ink: #0e1726;
+  --ink-2: #334155;
+  --muted: #556274;
   --line: #dce2ea;
   --field-line: #7b8798;
   --surface: #f4f6f9;
   --white: #ffffff;
-  --on-dark: #cfdcd3;
+  --on-dark: #c9d2de;
 
   /* Status */
   --ok: #0a6b37;
@@ -876,7 +876,7 @@ a:hover {
 }
 .rating-summary .stars {
   font-size: 28px;
-  color: #2e4a3a;
+  color: #3a4a63;
   margin: 8px 0 10px;
 }
 .rating-summary .stars::after {
